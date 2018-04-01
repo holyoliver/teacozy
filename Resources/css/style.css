@@ -45,7 +45,7 @@ a{
   margin: auto;
   width: 1200px;
 }
-h2, h4{
+h2, h3, h4{
   margin: 0;
   padding: 10px;
 }
@@ -78,5 +78,33 @@ h2, h4{
 }
 .tea-item{
   padding: 15px;
-
+}
+.locations{
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 70px
+}
+.addresscont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px 50px 0 50px;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  background: black;
+  justify-content: center;
+  flex-basis: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+}
+.contact{
+  height: 200px;
+}
+footer{
+  text-align: left;
+  padding: 20px;
 }
