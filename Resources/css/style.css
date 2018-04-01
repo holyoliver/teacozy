@@ -43,11 +43,17 @@ a{
 .main{
   padding-top: 69px;
   margin: auto;
+  width: 1200px;
 }
+h2, h4{
+  margin: 0;
+  padding: 10px;
+}
+
 .maintea{
+  margin: auto;
   background-color: black;
-    width: 100%;
-    margin: auto;
+  width: 100%;
 }
 #mission{
   display: flex;
@@ -58,4 +64,19 @@ a{
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 70px;
+}
+.teacontainer{
+  height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+.teaitemcont{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tea-item{
+  padding: 15px;
+
 }
